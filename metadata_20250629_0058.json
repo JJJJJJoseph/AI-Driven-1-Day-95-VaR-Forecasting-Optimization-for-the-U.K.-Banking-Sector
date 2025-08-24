@@ -1,0 +1,17 @@
+{
+  "created": "20250629_0058",
+  "models": {
+    "lstm_qr": "models/LSTM/lstm_qr_best_20250629_0058.pt",
+    "hybrid_feat": "models/LSTM/lstm_hybrid_feat_20250629_0058.pt",
+    "garch": "models/garch_result_20250629_0058.pkl"
+  },
+  "scaler": "models/feature_scaler.bin",
+  "var_predictions": "processed/var_predictions_20250629_0058.parquet",
+  "metrics": "processed/var_backtest_summary_20250629_0058.csv",
+  "environment": {
+    "python": "3.11",
+    "torch": "2.6.0+cu124",
+    "shap": "0.48.0"
+  },
+  "comment": "AI-driven VaR project \u2013 full artifact snapshot"
+}
